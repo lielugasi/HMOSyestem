@@ -14,8 +14,11 @@ In the adding new pateient page(Create) there are blankets to input the patient 
 
 ![image](https://user-images.githubusercontent.com/63861553/197385727-602742f3-7a79-4d0e-8e59-7151d589cb15.png)
 
-In the edit patient page(Edit) there are balnket full with the patient details and there is an option to change each of the details and save the changes
+In the edit patient page(Edit), on top there is the patient ID and there are balnket full with the patient details and there is an option to change each of the details and save the changes
 
 ![image](https://user-images.githubusercontent.com/63861553/197386142-0426f117-97a8-4be3-9d0c-b8e3a23f8e92.png)
 
+In the showing details of the patient page(Details), on top there is the patient ID and there are all the patient details. at the bottum of the page there is an edit patient option and back to the patients list.
+
+![image](https://user-images.githubusercontent.com/63861553/197386237-fa7c0ccf-e833-4ff0-8b1c-1dddea27162f.png)
 
