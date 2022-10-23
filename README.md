@@ -27,6 +27,7 @@ In the delete patient page(delete) we can see the pateint's details that we want
 ![image](https://user-images.githubusercontent.com/63861553/197388899-fe4d18f6-f199-4ac1-bafe-01ab6f66ff82.png)
 
 here is the list after we remove the patient
+
 ![image](https://user-images.githubusercontent.com/63861553/197388920-777eeaba-2fa1-4881-a671-b25853c3b87b.png)
 
 
