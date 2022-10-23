@@ -24,5 +24,9 @@ In the showing details of the patient page(Details), on top there is the patient
 
 In the delete patient page(delete) we can see the pateint's details that we want to delete and when we click on the delete bottun this specific patient is removing from the patients list
 
-![image](https://user-images.githubusercontent.com/63861553/197388228-56d14214-42eb-470c-a6d6-bdab4753177e.png)
+![image](https://user-images.githubusercontent.com/63861553/197388899-fe4d18f6-f199-4ac1-bafe-01ab6f66ff82.png)
+
+here is the list after we remove the patient
+![image](https://user-images.githubusercontent.com/63861553/197388920-777eeaba-2fa1-4881-a671-b25853c3b87b.png)
+
 
