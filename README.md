@@ -14,3 +14,5 @@ In the adding new pateient page(Create) there are blankets to input the patient 
 
 ![image](https://user-images.githubusercontent.com/63861553/197385727-602742f3-7a79-4d0e-8e59-7151d589cb15.png)
 
+In 
+
