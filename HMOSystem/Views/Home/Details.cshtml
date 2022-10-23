@@ -1,0 +1,83 @@
+﻿@model HMO.BL.BE.Patient
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Home/LayoutPage.cshtml";
+}
+
+<h2>פרטי לקוח</h2>
+
+<div>
+    <h4> @Html.DisplayFor(model => model.Id)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Addres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Addres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Birthday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Birthday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telephone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telephone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PositiveDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PositiveDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecoveryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecoveryDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("עריכה", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("חזרה לרשימת לקוחות", "Index")
+</p>

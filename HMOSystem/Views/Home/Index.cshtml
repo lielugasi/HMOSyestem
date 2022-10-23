@@ -1,0 +1,44 @@
+﻿@model IEnumerable<HMO.BL.BE.Patient>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/LayoutPage.cshtml";
+}
+
+<h2>ברוכים הבאים</h2>
+
+<p>
+    @Html.ActionLink("הוספת לקוח חדש", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        
+        <td>
+            @Html.ActionLink("עריכה", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("פרטים", "Details", new { id = item.Id }) |
+            @Html.ActionLink("מחיקה", "Delete", new { id = item.Id })|
+            @Html.ActionLink("הוספת חיסון", "AddVaccine", new { id = item.Id })|
+            @Html.ActionLink("פרטי חיסון", "VaccineDetails", new { id = item.Id})
+        </td>
+    </tr>
+}
+
+</table>
